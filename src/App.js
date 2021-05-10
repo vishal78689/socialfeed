@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header'
+import Post from './components/Post'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <div className="App" >
+   <Header name={'vishal'}/>
+   <Post post_heading={'travel'} content={'If you are working as an illustrator, its not absolutely vital to have a bespoke portfoliowebsite: services like Behance, DeviantArt and Cargo Collective are a good, quick and easy way of sharing your work online.'}/>
+   <Post post_heading={'travel'} content={'If you are working as an illustrator, its not absolutely vital to have a bespoke portfoliowebsite: services like Behance, DeviantArt and Cargo Collective are a good, quick and easy way of sharing your work online.'}/>
+   <Post post_heading={'travel'} content={'If you are working as an illustrator, its not absolutely vital to have a bespoke portfoliowebsite: services like Behance, DeviantArt and Cargo Collective are a good, quick and easy way of sharing your work online.'}/>
+   <Post post_heading={'travel'} content={'If you are working as an illustrator, its not absolutely vital to have a bespoke portfoliowebsite: services like Behance, DeviantArt and Cargo Collective are a good, quick and easy way of sharing your work online.'}/>
+   
     </div>
   );
 }
